@@ -12,5 +12,4 @@ NODE_ENV=dev npm start
 # References
 - node 20.8.0
 - npm 10.1.0
-- create-react-app 5.0.1
-- react 18.2.0
+- express
