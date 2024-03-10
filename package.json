@@ -1,0 +1,19 @@
+{
+  "name": "api_server",
+  "version": "1.0.0",
+  "description": "mattermost 채팅 일괄 삭제 서비스용 REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node index.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "r3n",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  }
+}
